@@ -1,5 +1,4 @@
-##### Using python virtual environment with conda. Please create a Pytorch environment, install Pytorch and some other packages, such as "numpy","pandas", "scikit-learn" and "scanpy". See the requirements.txt file for an overview of the packages in the environment we used to produce our results. Alternatively, you can install the environment dependencies in the following sequence to minimize environment conflicts. <br>
-
+##### Using python virtual environment with conda. Please create a Pytorch environment, install Pytorch and some other packages
 ```R
 conda create -n pipeline
 source activate pipeline
@@ -30,11 +29,3 @@ pip install scikit-misc
 
 ```
 
-##### to install some R packages. <br>
-```R
-import rpy2.robjects as robjects
-robjects.r('''
-install.packages('foreach')
-install.packages('doParallel')
-           ''')
-```
